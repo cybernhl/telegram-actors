@@ -8,4 +8,8 @@ if (project.hasProperty('buildIndex')) {
 }
 
 apply plugin: 'java'
-apply plugin: 'maven'
+
+dependencies{
+//    testCompile 'junit:junit:4.10'
+//    testCompile 'org.jodah:concurrentunit:0.3.0'
+}
